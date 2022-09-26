@@ -1,0 +1,4 @@
+Sitemap: https://barbela.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: barbela.github.io
