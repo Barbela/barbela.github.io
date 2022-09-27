@@ -24,7 +24,7 @@ SITE_URL = "https://barbela.github.io/"
 # This is the URL where Nikola's output will be deployed.
 # If not set, defaults to SITE_URL
 # BASE_URL = "https://barbela.github.io/"
-BLOG_EMAIL = "n.tesla@example.com"
+BLOG_EMAIL = "47531294+Barbela@users.noreply.github.com"
 BLOG_DESCRIPTION = "小婊子的淫乱窝"  # (translatable)
 
 # Nikola is multilingual!
@@ -140,27 +140,37 @@ TRANSLATIONS_PATTERN = '{path}.{lang}.{ext}'
 #          with a ``/``, otherwise end them with ``/index.html`` — or
 #          else they won’t be highlighted when active.
 
-##bootblog4
-#NAVIGATION_LINKS = {
-#    DEFAULT_LANG: (
-#        ("/archive.html", "文章归档"),
-#        ("/categories/", "标签"),
-#        ("/rss.xml", "RSS 源"),
-#    ),
-#}
-
-##gruberwine
+## bootblog4
+## libretto
 NAVIGATION_LINKS = {
     DEFAULT_LANG: (
-        ('/index.html', 'Home', 'fa fa-home'),
-        ('/archive.html', 'Archives', 'fa fa-folder-open'),
-        ('/categories/index.html', 'Tags', 'fa fa-tags'),
-        ('/rss.xml', 'RSS', 'fa fa-rss'),
-        #('https://getnikola.com', 'About me', 'fa fa-user'),
-        #('https://twitter.com/getnikola', 'My Twitter', 'fab fa-twitter'),
-        #('https://github.com/getnikola', 'My Github', 'fab fa-github'),
-    )
+        ("/archive.html", "文章归档"),
+        ("/categories/", "标签"),
+        ("/rss.xml", "RSS 源"),
+    ),
 }
+
+## gruberwine
+#NAVIGATION_LINKS = {
+#    DEFAULT_LANG: (
+#        ('/index.html', 'Home', 'fa fa-home'),
+#        ('/archive.html', 'Archives', 'fa fa-folder-open'),
+#        ('/categories/index.html', 'Tags', 'fa fa-tags'),
+#        ('/rss.xml', 'RSS', 'fa fa-rss'),
+#        #('https://getnikola.com', 'About me', 'fa fa-user'),
+#        #('https://twitter.com/getnikola', 'My Twitter', 'fab fa-twitter'),
+#        #('https://github.com/getnikola', 'My Github', 'fab fa-github'),
+#    )
+#}
+
+## canterville
+#LOGO_URL = 'https://getnikola.com/assets/img/logo.svg'
+#GLOBAL_CONTEXT = {
+#        'TWITTER_URL': None,
+#        'GITHUB_URL': None,
+#        'LINKEDIN_URL': None,
+#        'BANNER_URL': '/assets/img/Kyouko.jpeg'
+#}
 
 # Alternative navigation links. Works the same way NAVIGATION_LINKS does,
 # although themes may not always support them. (translatable)
@@ -170,8 +180,8 @@ NAVIGATION_ALT_LINKS = {
 }
 
 # Name of the theme to use.
-##Default: bootblog4
-THEME = "gruberwine"
+## Default: bootblog4
+THEME = "libretto"
 
 # A theme color. In default themes, it might be displayed by some browsers as
 # the browser UI color (eg. Chrome on Android). Other themes might also use it
